@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Nixie+One");
+
+.accents {
+  color:#333;
+}
+#typing {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  background: #b6e3ff;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.home {
+  padding-top: 15%;
+  padding-bottom: 35%;
+}
+
+.title {
+  font: 5.5em "Raleway", sans-serif;
+  letter-spacing: 1.5px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold
+}
+
+.names {
+  color: #333;
+  width: 50%;
+  padding-top: 2.5%;
+  font: 3.5em "Raleway", sans-serif;
+}

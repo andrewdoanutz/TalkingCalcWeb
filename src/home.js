@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import './css/home.css';
-
+import Typing from './components/typing';
 
 
 
@@ -9,6 +9,9 @@ export default class Home extends Component {
 
         render() {
           return(
+            <div>
+              <Typing/>
+
             <div className="homebox">
             
           <strong className="homehead">Abstract</strong>
@@ -32,7 +35,7 @@ export default class Home extends Component {
                <li>Play sound from SD Card inserted into LPC 4088 Dev Board</li>
              </ol>
           </div>
-             
+          </div>
           )
         }
         
