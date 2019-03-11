@@ -13,7 +13,7 @@ class Typing extends Component {
             cursor={{ show: false }}
             startDelay={500}
           >
-            <span className="title">Talking Calculator</span>
+            <span className="title">Beep Boop Beep Jukebox</span>
             <br />
             <span className="names">
               Andrew Doan

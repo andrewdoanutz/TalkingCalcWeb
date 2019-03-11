@@ -38,6 +38,19 @@ nav .navbar {
   color: #01579B !important;
 }
 
-
+.navImage{
+  float: left;
+  padding-bottom: 10px;
+  padding-right:5px;
+  height: 35px;
+  width: 30px;
+  background-color:  transparent;
+  transform: scale(1.2);
+  z-index: 0;
+}
   
 
+.brandbox{
+  z-index: 10;
+  width:500px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import bro1 from "./icon.png";
 import "../css/navbar.css";
 
 export default class NavBar extends React.Component {
@@ -14,10 +14,15 @@ export default class NavBar extends React.Component {
           <div className="container">
             <div className="navbar-header">
               <NavLink to="/" className="navbar-brand">
+                <img className="navImage" src={bro1}/>
+                <div className="brandbox">
                 <strong>
-                  Talking Calculator
+                  Beep Boop Beep Jukebox
                 </strong>
+                </div>
               </NavLink>
+              
+                
               <button
                 type="button"
                 className="navbar-toggle collapsed"
@@ -39,7 +44,9 @@ export default class NavBar extends React.Component {
                 <li>
                   <NavLink to="/about">About Us</NavLink>
                 </li>
-                
+                <li>
+                  <NavLink to="/updates">Updates</NavLink>
+                </li>
               </ul>
             </div>
           </div>

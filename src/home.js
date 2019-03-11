@@ -16,7 +16,7 @@ export default class Home extends Component {
             
           <strong className="homehead">Abstract</strong>
           <div className="hometext">  
-          In this project we will attempt to create a calculator which will communicate with the dev kit, which will compute the math the calculator will also read out the computation it is to do. We will have an external board with buttons, representing numbers and mathematical operations, a screen to display the calculations and a small speaker to play recorded messages of the operations being inputted into the device. The buttons, the screen, and the speaker will be connected to the board using GPIO pins, which will allow us to perform the actual calculating operations on the dev kit itself. Our initial goal for calculations will be addition, subtraction, multiplication and division however if we get those working in time we may try to add in further operations, but we are not sure what the next additions would be. The speaker we are planning to have play recorded sounds which we will store in an SD card which can be inserted and used by the dev kit directly. All of these parts will be soldered onto an external board to create a (hopefully) clean, compact hand held calculator that will plug into the LPC dev kit.
+          In this project we will attempt to create a jukebox which will communicate with the dev kit, which will play the corresponding song on the push of a button. We will have a screen to display the song name and a small speaker to play the songs. The buttons, the screen, and the speaker will be connected to the board using GPIO pins, which will allow us to perform the actual operations on the dev kit itself. Our initial goal for calculations will be to play the songs off of the SD card corresponding to the buttons however if we get that working in time we will try to add the display to show the song name.
           </div>
            <div className="homehead">Components</div>
              <ol className="hometext component">
@@ -29,9 +29,9 @@ export default class Home extends Component {
              </ol>
             <div className="homehead">Goals</div>
             <ol className="hometext component">
-               <li>Create working C calculator code</li>
+               <li>Create working C jukebox code</li>
                <li>Interface external components with LPC 4088 Dev Board</li>
-               <li>Create external calculator unit</li>
+               <li>Create external jukebox unit</li>
                <li>Play sound from SD Card inserted into LPC 4088 Dev Board</li>
              </ol>
           </div>
