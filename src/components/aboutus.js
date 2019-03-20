@@ -11,7 +11,7 @@ export default class About extends Component {
       
       <div className="profiles">
         <div className="andrew">
-        <Profile image="https://media.licdn.com/dms/image/C5603AQHaYrsskcDsfw/profile-displayphoto-shrink_800_800/0?e=1552521600&v=beta&t=iHRfLOcCBX2TKZRN4UcvFWu8Ndr7_NO0Zsfsk6_BEtw" 
+        <Profile image="https://media.licdn.com/dms/image/C5603AQHaYrsskcDsfw/profile-displayphoto-shrink_200_200/0?e=1558569600&v=beta&t=PQHxO0Y2VmoPHK3HrKDgG3R0eodNuMCuG0oxmN3rALQ" 
         name="Andrew Doan"
         yearMajor="UCSB 3rd Year Computer Engineer"
         linkedIn="https://www.linkedin.com/in/andrewadoan/"
