@@ -45,7 +45,7 @@ export default class NavBar extends React.Component {
                   <NavLink to="/about">About Us</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/updates">Updates</NavLink>
+                  <NavLink to="/updates">Weekly Reports</NavLink>
                 </li>
               </ul>
             </div>

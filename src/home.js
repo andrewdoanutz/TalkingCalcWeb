@@ -35,7 +35,7 @@ export default class Home extends Component {
                   <ol className="hometext component">
                     <li>Create working C code</li>
                     <li>Interface external components with LPC 4088 Dev Board</li>
-                    <li>Create external game unit</li>
+                    <li>Create external balancing unit</li>
                   </ol>
 
                 <div className="code">
