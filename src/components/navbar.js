@@ -17,7 +17,7 @@ export default class NavBar extends React.Component {
                 <img className="navImage" src={bro1}/>
                 <div className="brandbox">
                 <strong>
-                  Beep Boop Beep Jukebox
+                  Beep Boop Balancer
                 </strong>
                 </div>
               </NavLink>
