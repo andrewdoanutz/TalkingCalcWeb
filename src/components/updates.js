@@ -5,6 +5,9 @@ import "../css/updates.css"
 
 import pic1 from "./week11.jpg"
 import pic2 from "./week21.jpg"
+import pic3 from "./week31.jpg"
+import pic4 from "./week41.jpg"
+
 export default class Updates extends Component {
   render() {
     return (
@@ -20,9 +23,15 @@ export default class Updates extends Component {
             <img src={pic2} className="updatePic"></img>
             </div>
           <div className="homehead">Week Three</div>
-            <div className="hometext">We got the speaker to play sound, and read through the data sheet for our I2C peripheral buttons. We then ported over the Arduino library to C, and tested our buttons. Unfortunately, after we got the buttons to work, we fried the board by accidentally connecting the 5V pin to ground and the ground pin to 5V. This fried our buttons, so we purchased a MPU and switched out project over to a balancing game that could still make use of the speaker that we got working already. We put in extra time since we needed to get the new peripheral working, and worked on the project every lab section and all the office hours.</div>
+            <div className="hometext">We got the speaker to play sound, and read through the data sheet for our I2C peripheral buttons. We then ported over the Arduino library to C, and tested our buttons. Unfortunately, after we got the buttons to work, we fried the board by accidentally connecting the 5V pin to ground and the ground pin to 5V. This fried our buttons, so we purchased a MPU and switched out project over to a balancing unit that could still make use of the speaker that we got working already. We put in extra time since we needed to get the new peripheral working, and worked on the project every lab section and all the office hours.</div>
+            <div className="picbox">
+            <img src={pic3} className="updatePic"></img>
+            </div>
           <div className="homehead">Week Four</div>
             <div className="hometext">We got the MPU working in conjunction with the DAC speaker. A sound is played depending on how unbalanced the unit is, and LEDs connected to the board via GPIO are lit up depending on how far in one direction the unit is tilted.</div>
+            <div className="picbox">
+            <img src={pic4} className="updatePic"></img>
+            </div>
       </div>
     )
   }
